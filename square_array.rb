@@ -1,3 +1,4 @@
 def square_array(array)
-  array.each {|squared| array[squared]**}
+  array.each do |squared| 
+    array[squared]**
 end
